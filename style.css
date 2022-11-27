@@ -1,7 +1,7 @@
 body {
-    background-color: rgb(48, 27, 82);
-    text-align: center;
-    color: white;
+  background-color: rgb(48, 27, 82);
+  text-align: center;
+  color: white;
 }
 :root {
   --grid-cols: 1;
@@ -14,7 +14,7 @@ body {
   align-items: center;
   margin-top: 50px;
 }
-  
+
 .container {
   margin: auto;
   width: 600px;
@@ -22,27 +22,27 @@ body {
   display: grid;
   grid-template-rows: repeat(var(--grid-rows), 1fr);
   grid-template-columns: repeat(var(--grid-cols), 1fr);
+  background-color: white;
 }
 
 .grid {
-    border: 1px solid #ddd;
-    background-color: white;
+  border: 1px solid #ddd;
 }
 
-.gridBlack{
+.gridBlack {
   background-color: black;
 }
 
 .slider {
-  -webkit-appearance: none;  /* Override default CSS styles */
+  -webkit-appearance: none; /* Override default CSS styles */
   appearance: none;
   height: 10px; /* Specified height */
   border-radius: 5px;
   background: white; /* Grey background */
   outline: none; /* Remove outline */
   opacity: 0.85; /* Set transparency (for mouse-over effects on hover) */
-  -webkit-transition: .2s; /* 0.2 seconds transition on hover */
-  transition: opacity .2s;
+  -webkit-transition: 0.2s; /* 0.2 seconds transition on hover */
+  transition: opacity 0.2s;
 }
 
 .slider:hover {
@@ -66,13 +66,22 @@ body {
   cursor: pointer; /* Cursor on hover */
 }
 
-#rainbow {
-background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
-border: #ffb834;
-border: 2px solid #ffb834;
-}
+/* #rainbow {
+  background-image: linear-gradient(
+    to left,
+    violet,
+    indigo,
+    blue,
+    green,
+    yellow,
+    orange,
+    red
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  border: #ffb834;
+  border: 2px solid #ffb834;
+} */
 
 button {
   background-color: #ffb834;
@@ -89,7 +98,6 @@ button {
   cursor: pointer;
   display: block;
   border-radius: 5px;
-  font-weight: bold;
   font-size: 18px;
 }
 
@@ -98,5 +106,6 @@ button:hover {
 }
 
 .button-toggle {
-  background-color: #ffb834;
+  background-color: #ff7e34;
+  font-weight: bold;
 }

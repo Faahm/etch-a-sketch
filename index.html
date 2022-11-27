@@ -1,27 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Etch-a-Sketch</title>
-    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="style.css" />
     <script src="index.js" defer></script>
-</head>
-<body>
+  </head>
+  <body>
     <h1>Etch-a-Sketch</h1>
     <div class="page-container">
-        <div class="buttons">
-            <button id="black">Black</button>
-            <button id="grayscale">Grayscale</button>
-            <button id="rainbow">Rainbow</button>
-        </div>
-        <div>
-            <label for="myRange">Grid Size:</label>
-            <input type="range" min="2" max="100" value="16" class="slider" id="myRange">
-            <p id="grid-size">Size: </p>
-            <div class="container"></div>
-        </div>
+      <div class="buttons">
+        <button id="black" class="btn">Black</button>
+        <button id="grayscale" class="btn">Grayscale</button>
+        <button id="rainbow" class="btn">Rainbow</button>
+        <button id="eraser" class="btn">Eraser</button>
+      </div>
+      <div>
+        <label for="myRange">Grid Size:</label>
+        <input
+          type="range"
+          min="2"
+          max="100"
+          value="16"
+          class="slider"
+          id="myRange"
+        />
+        <p id="grid-size">Size:</p>
+        <div class="container"></div>
+      </div>
     </div>
-</body>
+  </body>
 </html>
