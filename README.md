@@ -9,5 +9,6 @@ Features
   - Rainbow
 - Eraser
 
+[Live Preview](https://faahm.github.io/etch-a-sketch/)
 
 ![alt text](https://github.com/Faahm/etch-a-sketch/blob/main/sample.png "Page Preview")
